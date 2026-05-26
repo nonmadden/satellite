@@ -111,7 +111,7 @@ When choosing an LNB, the most relevant parameters are the following:
 
 **In summary,** we recommend using a PLL LNB with linear polarization and LO stability within `+- 250 kHz` or less. Also, the LNB should be suitable for the frequency of the signal covering your location. We elaborate on each of these parameters below.
 
-Regarding **frequency range**, you must verify that the input frequency range of the LNB encompasses the frequency of the Blockstream Satellite signal in your coverage area. For example, if you are located in North America and covered by the Galaxy 18 satellite, the downlink frequency of interest is 11913.4 MHz. In this case, an LNB that operates from 11.7 GHz to 12.2 GHz would work. In contrast, an LNB that operates from 10.7 GHz to 11.7 GHz would **not** work. You can check the signal frequencies of each region in the [frequency guide](frequency.md#signal-frequencies).
+Regarding **frequency range**, you must verify that the input frequency range of the LNB encompasses the frequency of the Blockstream Satellite signal in your coverage area. For example, if you are located in North America and covered by the Galaxy 18 satellite, the downlink frequency of interest is 12035.1 MHz. In this case, an LNB that operates from 11.7 GHz to 12.2 GHz would work. In contrast, an LNB that operates from 10.7 GHz to 11.7 GHz would **not** work. You can check the signal frequencies of each region in the [frequency guide](frequency.md#signal-frequencies).
 
 Regarding **polarization**, an LNB with **Linear Polarization** is required. While most Ku band LNBs are linearly polarized, some popular satellite TV services use circular polarization. A circularly polarized LNB will **not** work with Blockstream Satellite.
 

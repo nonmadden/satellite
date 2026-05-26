@@ -67,7 +67,15 @@ class TestConfigDir(TestEnv):
                 'G18',
                 {
                     'old_freq': 12016.4,
-                    'new_freq': 11913.4
+                    'new_freq': 12035.1
+                },
+            ),
+            (
+                # G18 update on May 29, 2026
+                'G18',
+                {
+                    'old_freq': 11913.4,
+                    'new_freq': 12035.1
                 },
             ),
             (
@@ -171,15 +179,15 @@ class TestConfigDir(TestEnv):
             "sat": {
                 "name": "Galaxy 18",
                 "alias": "G18",
-                "dl_freq": 11913.4,
+                "dl_freq": 12035.1,
                 "band": "Ku",
                 "pol": "H",
                 "ip": "172.16.235.1"
             },
             "freqs": {
-                "dl": 11913.4,
+                "dl": 12035.1,
                 "lo": 10600.0,
-                "l_band": 1313.4
+                "l_band": 1435.1
             }
         }
         config.write_cfg_file(self.cfg_name, self.cfg_dir, test_info)
@@ -396,9 +404,9 @@ class TestReceiversSetupConfig(TestEnv):
             "setup": defs.get_demod_def('Novra', 'S400'),
             "lnb": defs.get_lnb_def('GEOSATpro', 'UL1PLL'),
             "freqs": {
-                "dl": 11913.4,
+                "dl": 12035.1,
                 "lo": 10600.0,
-                "l_band": 1313.4
+                "l_band": 1435.1
             }
         }
         self.expected_config['setup']['netdev'] = 'lo'
@@ -710,9 +718,9 @@ class TestReceiversSetupConfig(TestEnv):
             "pol": "V"
         }
         self.expected_config["freqs"] = {
-            "dl": 11913.4,
+            "dl": 12035.1,
             "lo": 10400.0,
-            "l_band": 1513.4
+            "l_band": 1635.1
         }
 
         config.configure(self.args)

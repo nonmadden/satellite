@@ -41,9 +41,9 @@ def user_info():
         "setup": defs.get_demod_def('Novra', 'S400'),
         "lnb": defs.get_lnb_def('GEOSATpro', 'UL1PLL'),
         "freqs": {
-            "dl": 11913.4,
+            "dl": 12035.1,
             "lo": 10600.0,
-            "l_band": 1313.4
+            "l_band": 1435.1
         }
     }
     test_config['setup']['netdev'] = 'lo'

@@ -370,9 +370,9 @@ class TestReceiversSetupConfig:
                 "universal": False
             }
             expected_config["freqs"] = {
-                "dl": 11913.4,
+                "dl": 12035.1,
                 "lo": 10400.0,
-                "l_band": 1513.4
+                "l_band": 1635.1
             }
 
         # LNB polarization

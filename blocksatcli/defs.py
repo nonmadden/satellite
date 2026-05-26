@@ -30,7 +30,7 @@ api_server_url = {
 satellites = [{
     'name': "Galaxy 18",
     'alias': "G18",
-    'dl_freq': 11913.4,
+    'dl_freq': 12035.1,
     'band': "Ku",
     'pol': "H",
     'ip': "172.16.235.1",
