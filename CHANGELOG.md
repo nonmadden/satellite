@@ -18,7 +18,7 @@
 
 ## 2.5.2
 
-Release Date: 2026-05-29
+Release Date: 2026-05-26
 
 ### Changed
 - Galaxy 18 downlink frequency.

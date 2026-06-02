@@ -71,7 +71,7 @@ class TestConfigDir(TestEnv):
                 },
             ),
             (
-                # G18 update on May 29, 2026
+                # G18 update on June 3rd, 2026
                 'G18',
                 {
                     'old_freq': 11913.4,
